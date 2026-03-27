@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalTaxiService.Web", "MinimalTaxiService.Web\MinimalTaxiService.Web.csproj", "{8DD1D5E5-88C7-4E74-8929-0237736CE55E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalTaxiService.Domain", "MinimalTaxiService.Domain\MinimalTaxiService.Domain.csproj", "{F09EB786-93C0-4E69-AC07-6F8CAEF2CBD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalTaxiService.Infrastructure.Postgres", "MinimalTaxiService.Infrastructure.Postgres\MinimalTaxiService.Infrastructure.Postgres.csproj", "{A4E6233E-CA14-4C52-88B8-F0F123415F2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalTaxiService.Contracts", "MinimalTaxiService.Contracts\MinimalTaxiService.Contracts.csproj", "{478D589B-4B99-4023-BD5C-6EAB8B76EDD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalTaxiService.Application", "MinimalTaxiService.Application\MinimalTaxiService.Application.csproj", "{D5446A5F-50BC-49CA-8ACB-68CB6E38FE85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{39C4CDD5-4F23-4159-B232-B04567FBB74C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DD1D5E5-88C7-4E74-8929-0237736CE55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD1D5E5-88C7-4E74-8929-0237736CE55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD1D5E5-88C7-4E74-8929-0237736CE55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD1D5E5-88C7-4E74-8929-0237736CE55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F09EB786-93C0-4E69-AC07-6F8CAEF2CBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F09EB786-93C0-4E69-AC07-6F8CAEF2CBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F09EB786-93C0-4E69-AC07-6F8CAEF2CBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F09EB786-93C0-4E69-AC07-6F8CAEF2CBD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E6233E-CA14-4C52-88B8-F0F123415F2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E6233E-CA14-4C52-88B8-F0F123415F2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E6233E-CA14-4C52-88B8-F0F123415F2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E6233E-CA14-4C52-88B8-F0F123415F2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{478D589B-4B99-4023-BD5C-6EAB8B76EDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478D589B-4B99-4023-BD5C-6EAB8B76EDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478D589B-4B99-4023-BD5C-6EAB8B76EDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478D589B-4B99-4023-BD5C-6EAB8B76EDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5446A5F-50BC-49CA-8ACB-68CB6E38FE85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5446A5F-50BC-49CA-8ACB-68CB6E38FE85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5446A5F-50BC-49CA-8ACB-68CB6E38FE85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5446A5F-50BC-49CA-8ACB-68CB6E38FE85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C4CDD5-4F23-4159-B232-B04567FBB74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C4CDD5-4F23-4159-B232-B04567FBB74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C4CDD5-4F23-4159-B232-B04567FBB74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C4CDD5-4F23-4159-B232-B04567FBB74C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

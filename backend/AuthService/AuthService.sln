@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Web", "AuthService.Web\AuthService.Web.csproj", "{CED02A87-34DE-41B0-9DF8-CF5B190160C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Domain", "AuthService.Domain\AuthService.Domain.csproj", "{F7C74EC0-B3CC-4CE1-AF57-D9D3F62F1D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Application", "AuthService.Application\AuthService.Application.csproj", "{F9168E0B-131E-402C-A70F-EE898A3A85BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Infrastructure.PostgreSql", "AuthService.Infrastructure.PostgreSql\AuthService.Infrastructure.PostgreSql.csproj", "{744AEC7E-C510-4EDA-83E0-3A4AA931F2F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthService.Contracts", "AuthService.Contracts\AuthService.Contracts.csproj", "{FCE90CF6-7641-4895-AD69-4C9110E59D9F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CED02A87-34DE-41B0-9DF8-CF5B190160C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CED02A87-34DE-41B0-9DF8-CF5B190160C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CED02A87-34DE-41B0-9DF8-CF5B190160C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CED02A87-34DE-41B0-9DF8-CF5B190160C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7C74EC0-B3CC-4CE1-AF57-D9D3F62F1D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7C74EC0-B3CC-4CE1-AF57-D9D3F62F1D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7C74EC0-B3CC-4CE1-AF57-D9D3F62F1D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7C74EC0-B3CC-4CE1-AF57-D9D3F62F1D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9168E0B-131E-402C-A70F-EE898A3A85BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9168E0B-131E-402C-A70F-EE898A3A85BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9168E0B-131E-402C-A70F-EE898A3A85BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9168E0B-131E-402C-A70F-EE898A3A85BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744AEC7E-C510-4EDA-83E0-3A4AA931F2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744AEC7E-C510-4EDA-83E0-3A4AA931F2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744AEC7E-C510-4EDA-83E0-3A4AA931F2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744AEC7E-C510-4EDA-83E0-3A4AA931F2F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCE90CF6-7641-4895-AD69-4C9110E59D9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE90CF6-7641-4895-AD69-4C9110E59D9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE90CF6-7641-4895-AD69-4C9110E59D9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE90CF6-7641-4895-AD69-4C9110E59D9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
