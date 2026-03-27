@@ -60,7 +60,10 @@ services:
       Email__User: ${EMAIL_USER}
       Email__Pass: ${EMAIL_PASS}
     networks:
-      - app-network
+      app-network: {}
+      wedding-network:
+        aliases:
+          - auth-service
 
   minimal-taxi-service:
     build:
@@ -92,7 +95,10 @@ services:
       S3__BucketName: ${S3_BUCKET_NAME}
       S3__PublicBaseUrl: ${S3_PUBLIC_BASE_URL}
     networks:
-      - app-network
+      app-network: {}
+      wedding-network:
+        aliases:
+          - minimal-taxi-service
 
   frontend:
     build:
@@ -101,13 +107,19 @@ services:
     container_name: minimal_taxi_frontend
     restart: unless-stopped
     networks:
-      - app-network
+      app-network: {}
+      wedding-network:
+        aliases:
+          - frontend
 
 volumes:
   postgres_data:
   redis_data:
 
 networks:
-  wedding-network:
-    name: wedding-network
+  app-network:
     driver: bridge
+
+  wedding-network:
+    external: true
+    name: wedding-network
