@@ -108,5 +108,6 @@ volumes:
   redis_data:
 
 networks:
-  app-network:
+  wedding-network:
+    name: wedding-network
     driver: bridge
